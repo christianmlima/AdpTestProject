@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.17" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Adp.Calc.Interview.Domain\Adp.Interview.Calc.Domain.csproj" />
+    <ProjectReference Include="..\Adp.Calc.Interview.Integrations\Adp.Interview.Calc.Integrations.csproj" />
+    <ProjectReference Include="..\Adp.Interview.Calc.App.Api\Adp.Interview.Calc.App.Api.csproj" />
+    <ProjectReference Include="..\Adp.Interview.Calc.Shared\Adp.Interview.Calc.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
