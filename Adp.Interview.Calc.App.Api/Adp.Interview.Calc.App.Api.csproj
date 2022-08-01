@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Adp.Calc.Interview.Integrations\Adp.Interview.Calc.Integrations.csproj" />
+    <ProjectReference Include="..\Adp.Interview.Calc.Shared\Adp.Interview.Calc.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

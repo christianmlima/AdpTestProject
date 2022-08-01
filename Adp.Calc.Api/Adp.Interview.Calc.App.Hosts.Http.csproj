@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Adp.Calc.Interview.Domain\Adp.Interview.Calc.Domain.csproj" />
+    <ProjectReference Include="..\Adp.Calc.Interview.Infrastructure\Adp.Interview.Calc.Infrastructure.csproj" />
+    <ProjectReference Include="..\Adp.Calc.Interview.Integrations\Adp.Interview.Calc.Integrations.csproj" />
+    <ProjectReference Include="..\Adp.Interview.Calc.App.Api\Adp.Interview.Calc.App.Api.csproj" />
+    <ProjectReference Include="..\Adp.Interview.Calc.Shared\Adp.Interview.Calc.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
